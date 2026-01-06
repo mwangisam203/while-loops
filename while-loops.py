@@ -37,9 +37,9 @@ fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 i = 0
 while i < len(fruits):
     if fruits[i] == "orange":
-        i += 1
+        i += 1  # ← increment BEFORE continue
         continue
     print(fruits[i])
-    i += 1
+    i += 1      # ← increment at the END
 #output: apple, banana, cherry, kiwi, melon, mango
 
