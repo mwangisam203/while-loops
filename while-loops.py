@@ -3,7 +3,17 @@ while i < 5:
     print(i)
     i += 1
 
+# Using continue statement in while loop 
+i = 0
+while i < 9:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
 
+
+
+# Looping through a list using while loop
 thistuple = ("apple", "banana", "cherry")
 i = 0
 while i < len(thistuple):
