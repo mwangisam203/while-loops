@@ -11,6 +11,14 @@ while i < 9:
         continue
     print(i)
 
+# Using break statement in while loop
+i = 1
+while i < 9:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
 
 
 # Looping through a list using while loop
